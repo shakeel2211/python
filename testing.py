@@ -1,6 +1,5 @@
-# Lecture no 11 membership operator  (in and not in)
-string1 = "kamoka"
-print("a" in string1)  # true
-# membership operator (not in)
-string2 = 10,20,30,40
-print("43" not in string2) #true
+# lecture no 12 identify operator in python
+x = 10
+y = 10
+print(x is y, x==y) # yee to value print kar skty hain x is y mean x braber hai y k and x==y mean x braber hai y k 
+print(x is not y , x!=y) # x is not y mean x braber nahi hai y k or  X!=y mean x braber nahi hai y k
