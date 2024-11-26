@@ -1,4 +1,4 @@
- # Range in python  (example no 1)
+ # Range in python  (example no 1)(for loop)
  # range( start , end , step)
  
  for a in range(5):
