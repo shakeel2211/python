@@ -1,8 +1,32 @@
 
-# lec no 21 string iteration in python
-s = "welcome to shakeel kamoka" # koi bhi string lay gay
-a = len(s) # string ki length nikalye gay to os k liye len()function lay gay.
-print(a)  # print a kare gay total length chak karne k liye.
-for e in range(a): # for loop use kare gay a lay gay length k liye
-    print(s[e])  # print main s aye gaa kue k s ki value lane hai or pher [e] aye gaa. kue k index k tera kaam kare gaa. 
-    
+# lec no 22 all string function
+# 1 lower()
+#String ke sabhi characters ko lowercase mein convert karta hai.
+
+# s = "Python my work"
+# a = s.lower()    # lower function
+# print(a)
+
+# s = "Python my work"
+# a = s.upper()   # upper function
+# print(a)
+
+# s = "Python my work"
+# a = s.title()  # title() function
+# print(s)
+
+# s = "Python my work"
+# a = s.capitalize()  # capitalize() function
+# print(s) 
+
+# s = "python my work"
+# a = s.find("o")     # find()
+# print(a)
+
+# s = "python" 
+# a = s.isalpha()    # isalpha() (true)
+# print(a)
+
+s = "123455667"
+a = s.isdigit()      # isdigit() (true)
+print(a)
