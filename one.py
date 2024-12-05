@@ -1,15 +1,41 @@
-# lecture no 28 list comprehension in python.
+# lecture no 29 delete element from list
+# del()
+y = [ 10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 ]
+del y[2]
+print(y)
 
-p = []
-for a in range(1,101): # for loop ka use 
-    p.append(a)    # normal formula append() function say
-    
-    print(p)
-    
-    
-    a = [ b for b in  range(1,101) if b%2==0 ] # for loop ka use hoga or pher filter ka formula use ho gaa  (if b%2==0) .or wo formula niklne gaa jo 2 py divide ho gaa.
-    print(a) # is main list comprehension ka kiya hai.
-    
-    s = "hello kamoka" # list comprehension example no 2.
-    t = [u for u in s]
-    print(t)
+# pop()
+y = [ 10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 ]
+y.pop(3)
+print(y)
+
+# remove()
+y = [ 10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 ]
+y.remove(60)
+print(y)
+
+# clear()
+y = [ 10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 ]
+y.clear()
+print(y)
+
+# update()
+z = [ 10,20,30,40,50,60,70,80,90 ]
+z[3] = 45
+print(z)
+
+# insert()
+z = [ 10,20,30,40,50,60,70,80,90 ]
+z.insert(3,10)
+print(z)
+
+# append()
+z = [ 10,20,30,40,50,60,70,80,90 ]
+z.append(100)
+print(z)
+
+# extends()
+y = [40,50,60,]
+z = [70,80,90,100]
+y.extend(z)
+print(y)
